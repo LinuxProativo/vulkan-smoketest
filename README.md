@@ -1,15 +1,21 @@
 <p align="center">
-  <img src="logo.png" width="256">
+  <img src="logo.png" width="300>
 </p>
 
 <h1 align="center">Vulkan Smoke Test</h1> 
 
 <h3 align="center">This is a simple smoke test utility to verify that the Vulkan environment is 
-correctly installed and functional on your system.
-<br/><br/>
-The project was originally maintained within the Vulkan-Tools repository until 
-version 1.1.70, when it was removed. This repository aims to preserve and maintain 
-vulkan-smoketest independently.</h3>
+correctly installed and functional on your system.</h3>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Platform-Windows-5088D4?style=flat-square&logo=gitforwindows"/>
+    <img src="https://img.shields.io/badge/Platform-Linux-FCC624?&logo=linux&style=flat-square"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/LinuxProativo/ALPack/rust.yml?label=Test&style=flat-square&logo=github"/>
+    <img src="https://img.shields.io/badge/Build-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
+    <img src="https://img.shields.io/github/languages/code-size/LinuxProativo/ALPack?style=flat-square&logo=paperlessngx&label=Code%20Size"/>
+    <img src="https://img.shields.io/github/repo-size/LinuxProativo/ALPack?style=flat-square&logo=paperlessngx&label=Repo%20Size"/>
+    <img src="https://img.shields.io/github/license/LinuxProativo/ALPack?color=673ab7&label=License&style=flat-square&logo=opensourcehardware&logoColor=white"/>
+</p> 
 
 ## 🎯 Objective
 
@@ -23,6 +29,10 @@ useful in scenarios such as:
 * Post-installation validation of drivers and SDK.
 * Diagnosis in Linux distributions or live environments.
 * Confirming the Vulkan stack is functional.
+
+The project was originally maintained within the Vulkan-Tools repository until 
+version 1.1.70, when it was removed. This repository aims to preserve and maintain 
+vulkan-smoketest independently.
 
 ## 🧩 Compatibility
 
@@ -102,15 +112,11 @@ Selected GPU for test: Intel(R) UHD Graphics 620 (WHL GT2)
 frames:4058, elapses:21011
 ```
 
-## 📜 License
-
-This project is licensed under the **Apache License 2.0**. 🧾
-
 ## 🕰️ History
 
 * 📌 Originally part of **KhronosGroup/Vulkan-Tools**
 * ❌ Removed after version **1.1.70**
-* ♻️ Project rescued and maintained independently by **LinuxDicasPro**
+* ♻️ Project rescued and maintained independently by **LinuxProativo**
 
 ## 🤝 Contributions
 
@@ -126,3 +132,15 @@ and specifications.
 detailed and useful error logs.
 
 To contribute, please create an **Issue** or submit a **Pull Request**.
+
+## 📜 MIT License
+
+This repository has scripts that were created to be free software.  
+Therefore, they can be distributed and/or modified within the terms of the ***Apache License 2.0***.
+
+> ### See the [Apache License 2.0](LICENSE) file for details.
+
+## 📬 Contact & Support
+
+* 📧 **Email:** [m10ferrari1200@gmail.com](mailto:m10ferrari1200@gmail.com)
+* 📧 **Email:** [contatolinuxdicaspro@gmail.com](mailto:contatolinuxdicaspro@gmail.com)
