@@ -1,9 +1,8 @@
 <p align="center">
-  <img src="logo.png" width="300>
+  <img src="logo.png" width="300">
 </p>
 
 <h1 align="center">Vulkan Smoke Test</h1> 
-
 <h3 align="center">This is a simple smoke test utility to verify that the Vulkan environment is 
 correctly installed and functional on your system.</h3>
 
