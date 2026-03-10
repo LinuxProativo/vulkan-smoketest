@@ -20,6 +20,7 @@ Depends on glslangValidator.
 
 import os
 import sys
+import shutil
 import subprocess
 import struct
 import re
@@ -38,9 +39,14 @@ def identifierize(s):
     return re.sub("^[^a-zA-Z_]+", "_", s)
 
 def compile_glsl(filename, tmpfile):
+    compiler = shutil.which("glslangValidator")
+
+    if not compiler:
+        compiler = "glslangValidator"
+
     # invoke glslangValidator
     try:
-        args = ["/usr/bin/glslangValidator", "-V", "-H", "-o", tmpfile, filename]
+        args = [compiler, "-V", "-H", "-o", tmpfile, filename]
         output = subprocess.check_output(args, universal_newlines=True)
     except subprocess.CalledProcessError as e:
         print(e.output, file=sys.stderr)
