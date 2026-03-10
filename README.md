@@ -9,11 +9,11 @@ correctly installed and functional on your system.</h3>
 <p align="center">
     <img src="https://img.shields.io/badge/Platform-Windows-5088D4?style=flat-square&logo=gitforwindows"/>
     <img src="https://img.shields.io/badge/Platform-Linux-FCC624?&logo=linux&style=flat-square"/>
-    <img src="https://img.shields.io/github/actions/workflow/status/LinuxProativo/ALPack/rust.yml?label=Test&style=flat-square&logo=github"/>
+    <img src="https://img.shields.io/github/actions/workflow/status/LinuxProativo/vulkan-smoketest/cmake-multi-platform.yml?label=Test&style=flat-square&logo=github"/>
     <img src="https://img.shields.io/badge/Build-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white"/>
-    <img src="https://img.shields.io/github/languages/code-size/LinuxProativo/ALPack?style=flat-square&logo=paperlessngx&label=Code%20Size"/>
-    <img src="https://img.shields.io/github/repo-size/LinuxProativo/ALPack?style=flat-square&logo=paperlessngx&label=Repo%20Size"/>
-    <img src="https://img.shields.io/github/license/LinuxProativo/ALPack?color=673ab7&label=License&style=flat-square&logo=opensourcehardware&logoColor=white"/>
+    <img src="https://img.shields.io/github/languages/code-size/LinuxProativo/vulkan-smoketest?style=flat-square&logo=paperlessngx&label=Code%20Size"/>
+    <img src="https://img.shields.io/github/repo-size/LinuxProativo/vulkan-smoketest?style=flat-square&logo=paperlessngx&label=Repo%20Size"/>
+    <img src="https://img.shields.io/github/license/LinuxProativo/vulkan-smoketest?color=673ab7&label=License&style=flat-square&logo=opensourcehardware&logoColor=white"/>
 </p> 
 
 ## 🎯 Objective
