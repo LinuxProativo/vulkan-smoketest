@@ -4,6 +4,9 @@ project(vulkan-smoketest)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
 set(GLMINC_PREFIX ${PROJECT_SOURCE_DIR}/libs)
 
+find_package(Python3 REQUIRED)
+set(PYTHON_EXECUTABLE ${Python3_EXECUTABLE})
+
 macro(generate_dispatch_table out)
     add_custom_command(OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/${out}
             COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/generate-dispatch-table ${CMAKE_CURRENT_SOURCE_DIR}/${out}
